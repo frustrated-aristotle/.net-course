@@ -31,6 +31,8 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.buttonLocationSelect = new System.Windows.Forms.Button();
             this.locationTXT = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.buttonSelectFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // folderBrowserDialog1
@@ -59,11 +61,27 @@
             this.locationTXT.Text = "label1";
             this.locationTXT.Click += new System.EventHandler(this.label1_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // buttonSelectFile
+            // 
+            this.buttonSelectFile.Font = new System.Drawing.Font("rainyhearts", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonSelectFile.Location = new System.Drawing.Point(295, 95);
+            this.buttonSelectFile.Name = "buttonSelectFile";
+            this.buttonSelectFile.Size = new System.Drawing.Size(121, 60);
+            this.buttonSelectFile.TabIndex = 2;
+            this.buttonSelectFile.Text = "Select File";
+            this.buttonSelectFile.UseVisualStyleBackColor = true;
+            this.buttonSelectFile.Click += new System.EventHandler(this.buttonSelectFile_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(428, 432);
+            this.Controls.Add(this.buttonSelectFile);
             this.Controls.Add(this.locationTXT);
             this.Controls.Add(this.buttonLocationSelect);
             this.Name = "Form1";
@@ -78,6 +96,8 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button buttonLocationSelect;
         private System.Windows.Forms.Label locationTXT;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button buttonSelectFile;
     }
 }
 

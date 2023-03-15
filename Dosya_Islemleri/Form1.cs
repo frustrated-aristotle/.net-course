@@ -32,5 +32,11 @@ namespace Dosya_Islemleri
             folderBrowserDialog1.ShowDialog();
             locationTXT.Text = folderBrowserDialog1.SelectedPath;
         }
+
+        private void buttonSelectFile_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            locationTXT.Text = openFileDialog1.FileName;
+        }
     }
 }
