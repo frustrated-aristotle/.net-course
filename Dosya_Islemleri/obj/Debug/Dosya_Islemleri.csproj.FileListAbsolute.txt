@@ -1,0 +1,11 @@
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\bin\Debug\Dosya_Islemleri.exe.config
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\bin\Debug\Dosya_Islemleri.exe
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\bin\Debug\Dosya_Islemleri.pdb
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.csproj.AssemblyReference.cache
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.csproj.SuggestedBindingRedirects.cache
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.Form1.resources
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.Properties.Resources.resources
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.csproj.GenerateResource.cache
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.csproj.CoreCompileInputs.cache
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.exe
+C:\Users\aristo\Desktop\.net\.net-course\Dosya_Islemleri\obj\Debug\Dosya_Islemleri.pdb
