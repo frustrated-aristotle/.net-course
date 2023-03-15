@@ -92,7 +92,7 @@
             this.buttonSaveFile.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
             this.buttonSaveFile.FlatAppearance.BorderSize = 5;
             this.buttonSaveFile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonSaveFile.Font = new System.Drawing.Font("rainyhearts", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonSaveFile.Font = new System.Drawing.Font("rainyhearts", 16F, System.Drawing.FontStyle.Bold);
             this.buttonSaveFile.Location = new System.Drawing.Point(902, 175);
             this.buttonSaveFile.Name = "buttonSaveFile";
             this.buttonSaveFile.Size = new System.Drawing.Size(121, 97);
