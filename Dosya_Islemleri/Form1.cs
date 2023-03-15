@@ -38,5 +38,10 @@ namespace Dosya_Islemleri
             openFileDialog1.ShowDialog();
             locationTXT.Text = openFileDialog1.FileName;
         }
+
+        private void buttonSaveFile_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog();
+        }
     }
 }
