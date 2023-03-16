@@ -70,6 +70,16 @@ namespace Dosya_Islemleri
             }
         }
 
+        private void buttonWriteToTXT_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.Filter = "Text Files | *.txt";
+            saveFileDialog1.ShowDialog();
+            StreamWriter write = new StreamWriter(saveFileDialog1.FileName);
+            write.WriteLine(richTextBox1.Text);
+            write.Close();
+            MessageBox.Show("Your TXT have been created!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             fileName = fileNameTXT.Text;

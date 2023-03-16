@@ -43,6 +43,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.buttonReadTXT = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.buttonWriteToTXT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // folderBrowserDialog1
@@ -70,7 +72,7 @@
             this.locationTXT.AutoSize = true;
             this.locationTXT.Font = new System.Drawing.Font("rainyhearts", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.locationTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(187)))));
-            this.locationTXT.Location = new System.Drawing.Point(130, 317);
+            this.locationTXT.Location = new System.Drawing.Point(178, 396);
             this.locationTXT.Name = "locationTXT";
             this.locationTXT.Size = new System.Drawing.Size(65, 20);
             this.locationTXT.TabIndex = 1;
@@ -127,19 +129,21 @@
             // fileDirectoryTXT
             // 
             this.fileDirectoryTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
+            this.fileDirectoryTXT.Font = new System.Drawing.Font("rainyhearts", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.fileDirectoryTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(187)))));
             this.fileDirectoryTXT.Location = new System.Drawing.Point(182, 30);
             this.fileDirectoryTXT.Name = "fileDirectoryTXT";
-            this.fileDirectoryTXT.Size = new System.Drawing.Size(193, 20);
+            this.fileDirectoryTXT.Size = new System.Drawing.Size(193, 19);
             this.fileDirectoryTXT.TabIndex = 5;
             // 
             // fileNameTXT
             // 
             this.fileNameTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
+            this.fileNameTXT.Font = new System.Drawing.Font("rainyhearts", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.fileNameTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(187)))));
             this.fileNameTXT.Location = new System.Drawing.Point(182, 110);
             this.fileNameTXT.Name = "fileNameTXT";
-            this.fileNameTXT.Size = new System.Drawing.Size(193, 20);
+            this.fileNameTXT.Size = new System.Drawing.Size(193, 19);
             this.fileNameTXT.TabIndex = 7;
             // 
             // label2
@@ -203,11 +207,42 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
+            this.listBox1.Font = new System.Drawing.Font("rainyhearts", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.listBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(187)))));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 10;
             this.listBox1.Location = new System.Drawing.Point(27, 175);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(138, 108);
+            this.listBox1.Size = new System.Drawing.Size(138, 34);
             this.listBox1.TabIndex = 12;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
+            this.richTextBox1.Font = new System.Drawing.Font("rainyhearts", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(187)))));
+            this.richTextBox1.Location = new System.Drawing.Point(27, 251);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(138, 176);
+            this.richTextBox1.TabIndex = 13;
+            this.richTextBox1.Text = "";
+            // 
+            // buttonWriteToTXT
+            // 
+            this.buttonWriteToTXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
+            this.buttonWriteToTXT.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(110)))), ((int)(((byte)(129)))));
+            this.buttonWriteToTXT.FlatAppearance.BorderSize = 5;
+            this.buttonWriteToTXT.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonWriteToTXT.Font = new System.Drawing.Font("rainyhearts", 16F, System.Drawing.FontStyle.Bold);
+            this.buttonWriteToTXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(187)))));
+            this.buttonWriteToTXT.Location = new System.Drawing.Point(182, 334);
+            this.buttonWriteToTXT.Name = "buttonWriteToTXT";
+            this.buttonWriteToTXT.Size = new System.Drawing.Size(193, 27);
+            this.buttonWriteToTXT.TabIndex = 14;
+            this.buttonWriteToTXT.Text = "Write to TXT";
+            this.buttonWriteToTXT.UseVisualStyleBackColor = false;
+            this.buttonWriteToTXT.Click += new System.EventHandler(this.buttonWriteToTXT_Click);
             // 
             // Form1
             // 
@@ -215,6 +250,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(56)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1055, 463);
+            this.Controls.Add(this.buttonWriteToTXT);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.buttonReadTXT);
             this.Controls.Add(this.button1);
@@ -251,6 +288,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonReadTXT;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button buttonWriteToTXT;
     }
 }
 
